@@ -1,0 +1,36 @@
+pipeline {
+    agent { node {label "node-1" } }
+
+    stages {
+        stage('code') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('code quality') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('code security-release') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Deploy-2') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
