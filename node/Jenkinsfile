@@ -1,20 +1,23 @@
 pipeline {
     agent { node {label "node-1" } }
 
+    environment { JAG= 'DEVOPS ENGINEER'
+    }
+
     stages {
         stage('code') {
             steps {
-                echo 'Hello World'
+                echo 'JAG'
             }
         }
         stage('build') {
             steps {
-                echo 'Hello World'
+                echo 'JAG'
             }
         }
         stage('test') {
             steps {
-                echo 'Hello World'
+                echo 'JAG'
             }
         }
         stage('code quality') {
@@ -27,7 +30,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('Deploy-2') {
+        stage('Deploy-3') {
             steps {
                 echo 'Hello World'
             }
