@@ -22,7 +22,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('code security') {
+        stage('code security-release') {
             steps {
                 echo 'Hello World'
             }
